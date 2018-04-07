@@ -218,12 +218,14 @@ model.add(Activation('softmax'))
 '''
 
 #adding tensorboard support for visulisation
+#uncomment following 2 lines if want visulization using tensorboard
 
 #keras.callbacks.TensorBoard(log_dir='./Graph', histogram_freq=0,write_graph=True, write_images=True)
 #tbCallBack = keras.callbacks.TensorBoard(log_dir='./Graph', histogram_freq=0, write_graph=True, write_images=True)
 
 #use {tensorboard --logdir path_to_current_dir/Graph} to visualise graph
-# must add callbacks=[tbCallBack] to model.fit
+
+# must add callbacks=[tbCallBack] to model.fit in case above two line are uncommented
 
 
 # compile the model
