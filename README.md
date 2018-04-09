@@ -19,7 +19,7 @@ Dataset requirements:
   
 For data hiding any tool available can be used as per avialability
 
- For testing alethia can be used to generate stego images in batches
+ For testing, alethia can be used to generate stego images in batches
  Alethia can be downloaded from the respective author's github link provided below:
  https://github.com/daniellerch/aletheia.git
  Read the documentation of aletheia to find out the respective dependencies to run that
