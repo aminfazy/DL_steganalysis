@@ -28,3 +28,8 @@ For data hiding any tool available can be used as per avialability
 After obtaining stego and cover images you are ready to use the model
 Make sure to save the fnet.py and other files in same directory where database of stego and cover images are kept
 or else make the corresponding changes to the paths in the fnet.py
+
+
+To run the graph using tensorboard
+    save the events file in Graph dir and run the following command:
+    tensorboard --logdir Graph
