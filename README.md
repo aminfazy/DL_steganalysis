@@ -30,6 +30,7 @@ Make sure to save the fnet.py and other files in same directory where database o
 or else make the corresponding changes to the paths in the fnet.py
 
 
-To run the graph using tensorboard
+To run the graph using tensorboard:
+
     save the events file in Graph dir and run the following command:
     tensorboard --logdir Graph
